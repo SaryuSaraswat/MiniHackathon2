@@ -1,0 +1,22 @@
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center; /* Centers both horizontally and vertically */
+    margin: 0;
+}
+
+.category-container{
+    border: 2px solid rgb(9, 108, 161);
+    padding: 5px ;
+    text-align: left;   
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.quiz{
+    text-align: center;
+    width: 40%;
+    border: 2px solid rgb(9, 108, 161);
+    padding: 10px;
+    background-color: rgb(6, 217, 217);
+}
