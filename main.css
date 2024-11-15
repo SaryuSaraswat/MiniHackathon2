@@ -4,6 +4,9 @@ body {
     display: grid;
     place-items: center; /* Centers both horizontally and vertically */
     margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .category-container{
@@ -57,4 +60,8 @@ h3{
     margin-bottom: 10px;
     background-color: rgb(1, 79, 93);
     color: white;
+}
+
+.button{
+    text-align: center;
 }
