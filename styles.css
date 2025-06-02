@@ -1,0 +1,82 @@
+body {
+  background-color: darkblue;
+  color: lightblue;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  border: 2px solid lightblue;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #1e1e1e;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 1.2em;
+}
+
+input, select {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  background-color: #333;
+  color: lightblue;
+}
+
+button {
+  font-size: 1.1em;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: lightblue;
+  color: darkblue;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #add8e6;
+}
+
+#questionContainer, #resultContainer {
+  margin-top: 20px;
+}
+
+#questionText {
+  font-size: 1.3em;
+  margin-bottom: 20px;
+}
+
+#answers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#answers div {
+  background-color: #333;
+  color: lightblue;
+  border: 1px solid lightblue;
+  padding: 10px;
+  margin: 5px;
+  width: 80%;
+  text-align: center;
+  cursor: pointer;
+}
+
+#answers div:hover {
+  background-color: lightblue;
+  color: darkblue;
+}
